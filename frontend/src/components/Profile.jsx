@@ -36,7 +36,7 @@ const Profile = () => {
 
   const followOrUnfollow = async () => {
       try {
-          const res = await axios.post(`http://localhost:8000/api/v1/user/followorunfollow/${userId}`, { withCredentials: true });
+          const res = await axios.post(` https://instavibe-ic2m.onrender.com//api/v1/user/followorunfollow/${userId}`, { withCredentials: true });
           if (res.data.success) {
               toast.success(res.data.message);
               const newIsFollowing = !isFollowing; // Toggle following state
