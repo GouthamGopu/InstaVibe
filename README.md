@@ -1,6 +1,6 @@
-# InstaVibe Clone
+# InstaVibe  
 
-A full-stack InstaVibe clone built with modern web technologies like React, Node.js, Express, MongoDB, and Socket.IO for real-time chatting. This project replicates key features of InstaVibe such as user authentication, posting images, following users, liking posts, and a real-time chat system.
+A full-stack InstaVibe   built with modern web technologies like React, Node.js, Express, MongoDB, and Socket.IO for real-time chatting. This project replicates key features of InstaVibe such as user authentication, posting images, following users, liking posts, and a real-time chat system.
 
 ## Features
 
@@ -34,8 +34,8 @@ A full-stack InstaVibe clone built with modern web technologies like React, Node
 
 ## Installation
 
-### Clone the Repository
+###   the Repository
 
 ```bash
-git clone https://github.com/GouthamGopu/InstaVibe.git
+git   https://github.com/GouthamGopu/InstaVibe.git
 cd InstaVibe
