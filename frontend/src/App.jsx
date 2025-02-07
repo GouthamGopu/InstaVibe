@@ -55,7 +55,7 @@ function App() {
 
   useEffect(() => {
     if (user) {
-      const socketio = io(' https://instavibe-ic2m.onrender.com/', {
+      const socketio = io('https://instavibe-ic2m.onrender.com', {
         query: {
           userId: user?._id
         },

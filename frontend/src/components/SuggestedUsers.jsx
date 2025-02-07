@@ -23,7 +23,7 @@ const SuggestedUsers = () => {
 
                     const followOrUnfollow = async (userId) => {
                         try {
-                            const res = await axios.post(` https://instavibe-ic2m.onrender.com//api/v1/user/followorunfollow/${userId}`, {}, { withCredentials: true });
+                            const res = await axios.post(`https://instavibe-ic2m.onrender.com/api/v1/user/followorunfollow/${userId}`, {}, { withCredentials: true });
                             if (res.data.success) {
                                 toast.success(res.data.message);
                                 dispatch(updateFollowing({ userId, isFollowing: !isFollowing }));
