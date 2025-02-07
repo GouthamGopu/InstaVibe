@@ -1,6 +1,6 @@
-# Instagram Clone
+# InstaVibe Clone
 
-A full-stack Instagram clone built with modern web technologies like React, Node.js, Express, MongoDB, and Socket.IO for real-time chatting. This project replicates key features of Instagram such as user authentication, posting images, following users, liking posts, and a real-time chat system.
+A full-stack InstaVibe clone built with modern web technologies like React, Node.js, Express, MongoDB, and Socket.IO for real-time chatting. This project replicates key features of InstaVibe such as user authentication, posting images, following users, liking posts, and a real-time chat system.
 
 ## Features
 
@@ -37,5 +37,5 @@ A full-stack Instagram clone built with modern web technologies like React, Node
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/GouthamGopu/Instagram.git
-cd Instagram
+git clone https://github.com/GouthamGopu/InstaVibe.git
+cd InstaVibe

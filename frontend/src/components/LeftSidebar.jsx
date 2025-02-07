@@ -79,7 +79,7 @@ const LeftSidebar = () => {
     return (
         <div className='bg-white md:bg-transparent fixed md:top-0 md:left-0 bottom-0 md:px-4 md:border-r border-t md:border-t-0 border-gray-300 md:w-[16%] w-full md:h-screen h-[10%] z-10'>
             <div className='flex md:flex-col flex-row justify-around md:justify-start'>
-                <h1 className='md:my-8 md:pl-3 font-bold text-xl hidden md:inline'>Instagram</h1>
+                <h1 className='md:my-8 md:pl-3 font-bold text-xl hidden md:inline'>InstaVibe</h1>
                 <div className='flex md:flex-col flex-row md:gap-0 gap-3'>
                     {
                         sidebarItems.map((item, index) => {
